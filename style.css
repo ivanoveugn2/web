@@ -1,0 +1,210 @@
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1160px;
+  }
+}
+
+header {
+    background: #141024;
+    color: #fff;
+    padding: 40px 25px 0 25px;
+}
+
+h1 {
+    padding: 200px 0 25px 0;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.header-descr {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.btn-danger {
+    padding: 25px 54px;
+    background: #D52027;
+    font-size: 18px;
+    font-weight: 400;
+    border: 3px solid;
+}
+
+.main-img {
+    max-width: 350px;
+}
+
+.about, .perspectives, .team, .price, .forms {
+    padding: 120px 0;
+}
+
+.about-item-heading {
+    font-size: 70px;
+    font-weight: 600;
+    color: #D52027;
+}
+
+.about-item-text, .pers-item-text, .team-item-text {
+    font-size: 18px;
+    color: #141024B2;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 60px;
+    line-height: 160%;
+} 
+
+.btn-danger:hover {
+    background: #ffffff;
+    color: #D52027;
+    border: 3px solid;
+    border-color: #D52027;
+    transition: 500ms;
+}
+
+.intro {
+    background: #141024;
+    color: #fff;
+}
+
+.perspectives {
+    background: #f9f9f9;
+}
+
+.btn-link {
+    padding-left: 0;
+    padding-right: 0;
+    text-decoration: none;
+    color: #D52027;
+}
+
+.team-item-img {
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.pers-h2, .team-h2, .price-h2 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.price-card {
+    border: 1px solid rgba(20, 16, 36, 0.2);
+    padding: 40px;
+    border-radius: 20px;
+    transition: 300ms;
+    min-height: 440px;
+}
+
+.price-card > h3 {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 25px 0 50px 0;
+}
+
+.price-card > span {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.price-card > p {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 0 50px 0;
+}
+
+.price-card:hover {
+    background: #141024;
+    color: white;
+    transition: 300ms;
+    padding: 50px 0 60px 0;
+}
+
+.forms > div > div > div > h3 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 46.8px;
+    margin: 0 0 20px 0;
+}
+
+.forms > div > div > div > p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.form-control, .btn-dark {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-color: transparent;
+}
+
+.form-control::placeholder {
+    color: rgba(40, 41, 68, 0.447);
+    font-size: 18px;
+}
+
+.btn-dark {
+    transition: 400ms;
+}
+
+.btn-dark:hover {
+    background: #fff;
+    color: #D52027;
+    border-color: transparent;
+    transition: 400ms;
+}
+
+.forms {
+    background: #D52027;
+    color: #fff;
+    background-image: url(percent.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+footer {
+    background: #141024;
+    padding: 40px 0;
+}
+
+.footer-desc {
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 15px; 
+}
+
+.tel {
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    transition: 300ms;
+}
+
+.tel:hover {
+    color: #D52027;
+    transition: 300ms;
+}
+
+a {
+    text-decoration: none!important;
+}
+
+.nav-link {
+    color: #fff;
+    font-size: 20px;
+    margin: 0 20px;
+    transition: 2000ms;
+}
+
+.nav-link:hover {
+    color: #ffffffae;
+    margin: 0 60px;
+    transition: 2000ms;
+}
